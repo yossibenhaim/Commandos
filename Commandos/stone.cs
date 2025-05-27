@@ -22,6 +22,14 @@ namespace Commandos
         {
             Console.WriteLine("Boom");
             this.CurrentHits--;
+            this.Working();
+        }
+        public void Working()
+        {
+            if (this.CurrentHits >= this.HitsToBreak)
+            {
+                this.IsComplete = false;
+            }
         }
     }
 }
