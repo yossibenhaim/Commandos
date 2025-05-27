@@ -23,5 +23,7 @@ namespace Commandos
         { if (this.life <= 0)
             { this.IsLife = false; }
         }
+        public void Shout()
+        { Console.WriteLine("I am enemy!!!"); }
     }
 }
