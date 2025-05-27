@@ -43,9 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AirCommado.cs" />
+    <Compile Include="AK47.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Commando.cs" />
+    <Compile Include="CommandoFactory.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyFactory.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="FireArm.cs" />
+    <Compile Include="IFactory.cs" />
+    <Compile Include="IWeapons.cs" />
+    <Compile Include="knife.cs" />
+    <Compile Include="M16.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeaCommando.cs" />
+    <Compile Include="stone.cs" />
+    <Compile Include="weaponFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

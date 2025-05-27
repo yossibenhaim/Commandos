@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Commandos
 {
-    internal class CommandoFactory
+    internal class CommandoFactory 
     {
-        public List<Commando> myCommando = new List<Commando>();
+        List<Commando> myCommando = new List<Commando>();
 
         public void addedCommando(string name, string CodeName, IWeapons Tool)
         {
-            Commando commando = new Commando(name,CodeName,Tool);
+            Commando commando = new Commando(name, CodeName, Tool);
             myCommando.Add(commando);
-            
+
         }
     }
 }

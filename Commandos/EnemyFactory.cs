@@ -10,11 +10,10 @@ namespace Commandos
     {
         public List<Enemy> myEnemy = new List<Enemy>();
 
-        public void addedCommando(string name, string rank)
+        public void addedEnemy(string name, string rank)
         {
             Enemy enemy = new Enemy(name, rank);
             myEnemy.Add(enemy);
-
         }
     }
 }
