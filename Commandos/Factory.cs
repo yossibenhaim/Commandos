@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace Commandos
 {
-    internal class CommandoFactory
-    {
-        public List<Commando> myCommando = new List<Commando>();
+    // C# 7.3 does not support property initializers in interfaces.
+    // Move the property to a class or use only a getter in the interface.
 
-        public void addedCommando(string name, string CodeName, IWeapons Tool)
-        {
-            Commando commando = new Commando(name,CodeName,Tool);
-            myCommando.Add(commando);
-            
-        }
+    internal interface IFactory
+    {
+        List<IFactory> myList { get; }
+
     }
 }
