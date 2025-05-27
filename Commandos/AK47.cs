@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Commandos
 {
-    internal class M16 : FireArm, IWeapons 
+    internal class AK47 : FireArm, IWeapons
     {
-        public M16() : base("M16", "Colt", 29) { }
+        public AK47() : base("AK47", "KALASHNIKOV", 30) { }
         public void Shoot()
         {
             Console.WriteLine("Boom");
