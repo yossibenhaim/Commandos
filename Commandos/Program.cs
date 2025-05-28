@@ -10,8 +10,11 @@ namespace Commandos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("SVL");
-            string a =Console.ReadLine();
+
+            weaponFactory weapon = new weaponFactory();
+            weapon.addedWeapone();
+            Console.WriteLine(weapon.myWeaponse[0].Name);
+            weapon.addedWeapone();
         }
     }
 }
