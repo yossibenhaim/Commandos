@@ -12,11 +12,11 @@ namespace Commandos
         public string Manufacturer { get; }
         public int NumberMunitions { get; protected set; }
 
-        public FireArm(string Nmae, string Manufacturer, int NumberMunitions)
+        public FireArm(string name, string manufacturer, int numberMunitions)
         {
-            this.Name = Name;
-            this.Manufacturer = Manufacturer;
-            this.NumberMunitions = NumberMunitions;
+            this.Name = name;
+            this.Manufacturer = manufacturer;
+            this.NumberMunitions = numberMunitions;
         }
 
     }

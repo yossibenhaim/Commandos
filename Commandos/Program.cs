@@ -10,11 +10,11 @@ namespace Commandos
     {
         static void Main(string[] args)
         {
-            Commando commando = new Commando();
-            Console.WriteLine(commando.Name);
-            Console.WriteLine(commando.NameCode);
-            commando.c(5);
-            Console.WriteLine(commando._CountLife);
+
+            weaponFactory weapon = new weaponFactory();
+            weapon.addedWeapone();
+            Console.WriteLine(weapon.myWeaponse[0].Name);
+            weapon.addedWeapone();
         }
     }
 }
